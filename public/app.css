@@ -1,0 +1,81 @@
+html, body {
+    min-height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    font-family: Avenir, 'PT Serif', 'Courier New', Courier, monospace;
+    background: #00b4e5;
+    font-size: 1.3em;
+}
+
+.main-section {
+    margin-top: 100px;
+}
+
+.output-area {
+    margin-top: 1em;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-search {
+    font-size: 1.4em;
+    color: #ed1e77;
+    padding: 15px;
+    border-radius: 5px;
+    border: 5px solid black;
+    max-width: 70%;
+    width: auto;
+}
+
+.output-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.user-card {
+    color: white;
+    padding: 15px; 
+    background-color: #210c28;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 250px;
+    max-width: 70vw;
+}
+
+.user-card__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-card__info img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.button {
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ed1e77;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 155px;
+    margin: auto;
+}
+
